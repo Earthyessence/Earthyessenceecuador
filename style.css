@@ -22,9 +22,17 @@ h1, h2, h3 {
     color: #2e8b57; /* Verde */
 }
 
+p {
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
 a {
     text-decoration: none;
     color: #2e8b57;
+    font-weight: bold;
 }
 
 /* Hacer la página más responsiva */
@@ -32,7 +40,7 @@ a {
     body {
         padding: 10px;
     }
-    
+
     h1, h2, h3 {
         font-size: 1.5em;
     }
