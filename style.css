@@ -1,47 +1,115 @@
 /* Estilos generales */
-body {
-    font-family: Arial, sans-serif;
+* {
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    box-sizing: border-box;
 }
 
-header {
-    text-align: center;
-    margin-top: 20px;
-}
-
-.header-image {
-    width: 100%;
-    max-width: 800px;
-    height: auto;
-}
-
-h1, h2, h3 {
-    text-align: center;
-    color: #2e8b57; /* Verde */
-}
-
-p {
-    text-align: center;
-    font-size: 1.2em;
+/* Fondo y color de texto principal */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f9f4; /* Color de fondo verde claro */
+    color: #333;
     line-height: 1.6;
-    margin-bottom: 20px;
+    padding-top: 50px;
 }
 
-a {
-    text-decoration: none;
-    color: #2e8b57;
+/* Encabezado */
+header {
+    background: #2e8b57; /* Verde fuerte */
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+}
+
+header h1 {
+    font-size: 2.5em;
     font-weight: bold;
 }
 
-/* Hacer la página más responsiva */
-@media (max-width: 768px) {
-    body {
-        padding: 10px;
-    }
-
-    h1, h2, h3 {
-        font-size: 1.5em;
-    }
+header p {
+    font-size: 1.2em;
+    margin-top: 10px;
 }
+
+/* Imagen principal */
+header img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+/* Contenido principal */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Sección de productos */
+section {
+    margin: 40px 0;
+}
+
+/* Botones de navegación */
+a.button {
+    display: inline-block;
+    background-color: #3cb371; /* Verde más claro */
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+a.button:hover {
+    background-color: #2e8b57;
+}
+
+/* Sección de ofertas */
+.offer {
+    background-color: #dcebd9; /* Fondo de ofertas en verde suave */
+    border-left: 10px solid #3cb371; 
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+.offer h3 {
+    color: #2e8b57;
+}
+
+/* Footer */
+footer {
+    background-color: #2e8b57;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+footer p {
+    font-size: 0.8em;
+}
+
+/* Estilos para tablas de productos y ofertas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #3cb371;
+    color: white;
+}
+
+td {
+    background-color: #f9f9f9;
+}
+
