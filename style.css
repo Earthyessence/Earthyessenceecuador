@@ -5,9 +5,12 @@
     box-sizing: border-box;
 }
 
-/* Fondo y color de texto principal */
+/* Cargar fuente de Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* Estilo general del body */
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Poppins', sans-serif; /* Usamos la fuente Poppins */
     background-color: #f4f9f4; /* Color de fondo verde claro */
     color: #333;
     line-height: 1.6;
@@ -20,16 +23,36 @@ header {
     color: #fff;
     text-align: center;
     padding: 30px;
+    position: relative;
 }
 
 header h1 {
-    font-size: 2.5em;
+    font-size: 2.8em;
     font-weight: bold;
 }
 
 header p {
     font-size: 1.2em;
     margin-top: 10px;
+}
+
+/* Botón "Volver al Menú Principal" */
+header .home-btn {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: #3cb371;
+    color: #fff;
+    padding: 8px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease;
+}
+
+header .home-btn:hover {
+    background-color: #2e8b57;
 }
 
 /* Imagen principal */
