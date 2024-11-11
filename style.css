@@ -5,19 +5,16 @@
     box-sizing: border-box;
 }
 
-/* Cargar fuente de Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
 
-/* Estilo general del body */
 body {
-    font-family: 'Poppins', sans-serif; /* Usamos la fuente Poppins */
-    background-color: #f4f9f4; /* Color de fondo verde claro */
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f9f4; /* Fondo verde claro */
     color: #333;
     line-height: 1.6;
     padding-top: 50px;
 }
 
-/* Encabezado */
 header {
     background: #2e8b57; /* Verde fuerte */
     color: #fff;
@@ -36,7 +33,6 @@ header p {
     margin-top: 10px;
 }
 
-/* Botón "Volver al Menú Principal" */
 header .home-btn {
     position: absolute;
     top: 20px;
@@ -46,93 +42,58 @@ header .home-btn {
     padding: 8px 15px;
     text-decoration: none;
     border-radius: 5px;
-    font-weight: bold;
-    font-size: 1.1em;
-    transition: background-color 0.3s ease;
 }
 
-header .home-btn:hover {
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+h2 {
+    color: #3cb371;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+/* Botones */
+.button {
+    display: inline-block;
+    background-color: #3cb371;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.button:hover {
     background-color: #2e8b57;
 }
 
-/* Imagen principal */
-header img {
-    max-width: 100%;
-    height: auto;
+/* Sección destacada */
+.highlight {
+    background-color: #dcebd9;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #3cb371;
     margin-top: 20px;
 }
 
-/* Contenido principal */
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-}
-
-/* Sección de productos */
-section {
-    margin: 40px 0;
-}
-
-/* Botones de navegación */
-a.button {
-    display: inline-block;
-    background-color: #3cb371; /* Verde más claro */
-    color: #fff;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
-    transition: background-color 0.3s ease;
-}
-
-a.button:hover {
-    background-color: #2e8b57;
-}
-
-/* Sección de ofertas */
+/* Ofertas */
 .offer {
-    background-color: #dcebd9; /* Fondo de ofertas en verde suave */
-    border-left: 10px solid #3cb371; 
+    background-color: #ffffff;
+    border: 2px solid #3cb371;
     padding: 20px;
-    margin-bottom: 40px;
+    margin-top: 20px;
+    border-radius: 5px;
 }
 
-.offer h3 {
-    color: #2e8b57;
-}
-
-/* Footer */
 footer {
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
     background-color: #2e8b57;
-    color: white;
-    text-align: center;
-    padding: 10px;
+    color: #fff;
 }
-
-footer p {
-    font-size: 0.8em;
-}
-
-/* Estilos para tablas de productos y ofertas */
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 20px 0;
-}
-
-th, td {
-    padding: 10px;
-    text-align: center;
-    border: 1px solid #ddd;
-}
-
-th {
-    background-color: #3cb371;
-    color: white;
-}
-
-td {
-    background-color: #f9f9f9;
-}
-
