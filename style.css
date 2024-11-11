@@ -16,7 +16,7 @@ body {
 }
 
 header {
-    background: #0288d1; /* Azul fuerte */
+    background: #6EC1E4; /* Azul Claro Primario */
     color: #fff;
     text-align: center;
     padding: 30px;
@@ -26,18 +26,20 @@ header {
 header h1 {
     font-size: 2.8em;
     font-weight: bold;
+    color: #3A5A80; /* Azul Oscuro */
 }
 
 header p {
     font-size: 1.2em;
     margin-top: 10px;
+    color: #F4FAFD; /* Blanco cálido */
 }
 
 header .new-info {
     margin-top: 20px;
     font-size: 1em;
-    color: #e1f5fe; /* Texto en azul claro */
-    background-color: #0277bd; /* Fondo azul oscuro */
+    color: #A0D9F6; /* Azul Suave */
+    background-color: #144D75; /* Azul Medianoche */
     padding: 10px;
     border-radius: 5px;
 }
@@ -46,7 +48,7 @@ header .home-btn {
     position: absolute;
     top: 20px;
     left: 20px;
-    background-color: #4fc3f7;
+    background-color: #4FC3F7;
     color: #fff;
     padding: 8px 15px;
     text-decoration: none;
@@ -60,7 +62,7 @@ header .home-btn {
 }
 
 h2 {
-    color: #0288d1;
+    color: #0288d1; /* Azul para encabezados */
     font-size: 1.8em;
     margin-bottom: 10px;
 }
@@ -68,33 +70,26 @@ h2 {
 /* Botones */
 .button {
     display: inline-block;
-    background-color: #4fc3f7;
+    background-color: #4FC3F7; /* Azul brillante para CTA */
     color: #fff;
     padding: 10px 20px;
     text-align: center;
     border-radius: 5px;
     text-decoration: none;
     font-weight: bold;
+    font-size: 1.1em;
 }
 
 .button:hover {
-    background-color: #0288d1;
+    background-color: #0288d1; /* Cambio de tono para hover */
 }
 
 /* Sección destacada */
 .highlight {
-    background-color: #b3e5fc;
+    background-color: #B3E5FC;
     padding: 20px;
     text-align: center;
-    border: 2px solid #4fc3f7;
-    margin-top: 20px;
-}
-
-/* Ofertas */
-.offer {
-    background-color: #ffffff;
-    border: 2px solid #4fc3f7;
-    padding: 20px;
+    border: 2px solid #4FC3F7;
     margin-top: 20px;
     border-radius: 5px;
 }
@@ -105,4 +100,9 @@ footer {
     margin-top: 20px;
     background-color: #0288d1;
     color: #fff;
+}
+
+footer a.button {
+    color: #F4FAFD; /* Blanco cálido */
+    font-size: 1.1em;
 }
